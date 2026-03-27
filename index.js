@@ -24,8 +24,8 @@ console.log(`O quociente de 100 dividido por 4 é: ${quociente}`);
 console.log(`O valor 10 é igual a 10? ${10 == 10}`);
 
 // Diferença
-const nome1 = "Ana";
-const nome2 = "Bia";
+const nome1 = "Nefertari";
+const nome2 = "Nefertiti";
 console.log(`Os nomes "${nome1}" e "${nome2}" são diferentes? ${nome1 != nome2}`);
 
 // Menor que
@@ -44,7 +44,7 @@ const idadeExemplo = 17;
 console.log(`A idade ${idadeExemplo} é maior ou igual a 18? ${idadeExemplo >= 18}`);
 
 
-// --- Operador Ternário ---
+// Operador Ternário 
 
 const nota = 8.5;
 const resultado = nota >= 7 ? "Aprovado" : "Reprovado";
