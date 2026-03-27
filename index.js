@@ -1,4 +1,4 @@
-// --- Operadores Aritméticos ---
+
 
 // Soma
 const num1 = 15;
@@ -18,7 +18,7 @@ const quociente = 100 / 4;
 console.log(`O quociente de 100 dividido por 4 é: ${quociente}`);
 
 
-// --- Operadores de Comparação (Relacionais) ---
+// Operadores de Comparação 
 
 // Igualdade
 console.log(`O valor 10 é igual a 10? ${10 == 10}`);
@@ -46,34 +46,28 @@ console.log(`A idade ${idadeExemplo} é maior ou igual a 18? ${idadeExemplo >= 1
 
 // --- Operador Ternário ---
 
-// Atribuição Condicional
 const nota = 8.5;
 const resultado = nota >= 7 ? "Aprovado" : "Reprovado";
 console.log(`Status do aluno: ${resultado}`);
 
-// Verificação de Maioridade
 const idadePessoa = 20;
 const statusPessoa = idadePessoa >= 18 ? "adulto" : "menor";
 console.log(`A pessoa é considerada: ${statusPessoa}`);
 
 
-// --- Template Literals ---
+// Template Literals
 
-// Placeholder
-const nomeUsuario = "Carlos";
+const nomeUsuario = "Ramssés";
 console.log(`Olá, ${nomeUsuario}!`);
 
-// Legibilidade
-const produtoNome = "Teclado Mecânico";
+const produtoNome = "Cavalos Brancos";
 const precoUnitario = 250;
 const quantidade = 2;
 console.log(`Você comprou ${quantidade} unidades de "${produtoNome}" por R$${precoUnitario} cada, totalizando R$${quantidade * precoUnitario}.`);
 
 
-// --- Mensagem Personalizada Completa ---
-
-const nomeFinal = "Mariana";
-const idadeFinal = 16;
+const nomeFinal = "Tutancâmon";
+const idadeFinal = 19;
 const classificacao = idadeFinal >= 18 ? "maior de idade" : "menor de idade";
 const mensagem = `Olá ${nomeFinal}, verificamos que você tem ${idadeFinal} anos e é ${classificacao}.`;
 
