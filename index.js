@@ -72,3 +72,5 @@ const classificacao = idadeFinal >= 18 ? "maior de idade" : "menor de idade";
 const mensagem = `Olá ${nomeFinal}, verificamos que você tem ${idadeFinal} anos e é ${classificacao}.`;
 
 console.log(mensagem);
+
+//teste
